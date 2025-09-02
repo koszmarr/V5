@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+header.banner {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+header.banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+header.banner h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0,0,0,0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+    background: #333;
+}
+nav ul li a {
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    background: #555;
+}
+main {
+    padding: 20px;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: white;
+}
